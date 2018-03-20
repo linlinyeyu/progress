@@ -1,0 +1,12 @@
+redmine:
+  url: http://10.30.52.20:10083
+  apiAccessKey: a14a8672de187db610e2811c55ff27b0af1c101c
+
+spring:
+  http:
+    multipart:
+      max-file-size: 100Mb
+      max-request-size: 100Mb
+      enabled: true
+server:
+  port: 8084
