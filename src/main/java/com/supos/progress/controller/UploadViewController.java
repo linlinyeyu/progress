@@ -9,4 +9,8 @@ public class UploadViewController {
     public String goUpload(){
         return "uploadExcel";
     }
+    @RequestMapping("/upload/view/images")
+    public String uploadImages(){
+        return "uploadImages";
+    }
 }
